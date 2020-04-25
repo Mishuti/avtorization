@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    background-color: #29475f;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.autorization__block{
+    box-shadow: 2px 2px 5px #22212169;
+    display: block;
+    text-align: center;
+    height: 300px;
+    width: 350px;
+    background-color: #fff;
+    margin: 180px auto;
+}
+.nad__strokoi{
+    margin: 15px;
+    border-bottom: 2px solid #f3f3f3;
+}
+
+.text__nad{
+    color: #585658;
+    margin: 5px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 22px;
+    
+
+}
+
+.form__input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 50px;
+    font-size: 17px;
+}
+
+.nad__btn{
+    color: #75b0ce;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+input[type="text"], input[type="password"]{
+    padding-left: 31px;
+    margin: auto;
+    font-weight: 400;
+    height: 40px;
+    width: 250px;
+    color: #c4c3c3;
+    border-color: 1px #d4d4d4;
+}
+
+input:focus {
+    box-shadow: none;
+    border-color: 1px #2196f3;
+}
+
+input[type="text"]{
+
+    border: 1px solid #d4d4d4;
+    
+    background: url(../img/icon__user.png) no-repeat center left;
+    background-size: 20px 20px;
+    background-position-x: 5px;
+}
+input[type="password"]{
+    border: 1px solid #d4d4d4;
+    background: url(../img/icon__pass.png) no-repeat center left;
+    background-size: 20px 20px;
+    background-position-x: 5px;
+}
+
+.form__btn{
+    margin-top: 15px;
+    font-size: 12px ;
+    border: 0;
+    background-color: #2196f3;
+    color: #fff;
+    height: 40px;
+    width: 250px;
+
+} 
+input[type="submit"]{
+    font-size: 17px;
+    border-bottom: 4px solid #2384d7;
+}
+
+
