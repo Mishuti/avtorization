@@ -76,7 +76,8 @@ input[type="password"]{
 
 .form__btn{
     margin-top: 15px;
-    font-size: 12px ;
+    font-size: 12px;
+    cursor: pointer;
     border: 0;
     background-color: #2196f3;
     color: #fff;
